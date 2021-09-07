@@ -1,0 +1,39 @@
+{
+    "name": "@milos5593/figma-plugin-remix-icons",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Milos Vujinic <milos@milos-vujinic.dev>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "serve": "vite preview",
+        "prebuild": "node -r esm prebuild.js",
+        "build": "vite build",
+        "postbuild": "tsc -p tsconfig.json"
+    },
+    "main": "dist/code.js",
+    "dependencies": {
+        "fuse.js": "^6.4.6",
+        "vue": "^3.2.6"
+    },
+    "devDependencies": {
+        "@enyaxu/hast-util-to-html": "^3.1.1",
+        "@figma/plugin-typings": "^1.33.0",
+        "@vitejs/plugin-vue": "^1.6.0",
+        "@vue/compiler-sfc": "^3.2.6",
+        "autoprefixer": "^10.3.4",
+        "esm": "^3.2.25",
+        "postcss": "^8.3.6",
+        "remixicon": "^2.5.0",
+        "svg-parser": "^2.0.4",
+        "tailwindcss": "^2.2.9",
+        "typescript": "^4.4.2",
+        "vite": "^2.5.2",
+        "vite-plugin-singlefile": "^0.5.1"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}

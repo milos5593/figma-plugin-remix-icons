@@ -1,0 +1,8 @@
+{
+    "name": "Remix Icon",
+    "id": "1016791350799065302",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "ui": "dist/index.html",
+    "editorType": ["figma"]
+}
