@@ -12,7 +12,7 @@ Plugin to quickly access [Remix Icon](https://remixicon.com/) icons in Figma.
 1. Clone the repository
 
    ```shell
-   git clone https://github.com/feathericons/figma-plugin-remix-icons.git
+   git clone https://github.com/milos5593/figma-plugin-remix-icons.git
    cd figma-plugin-remix-icons
    ```
 
